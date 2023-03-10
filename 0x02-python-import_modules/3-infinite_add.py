@@ -6,4 +6,5 @@ if __name__ == "__main__":
     while i < len(argv):
         convert_num = int(argv[i])
         sum += convert_num
+        i += 1
     print(sum)
