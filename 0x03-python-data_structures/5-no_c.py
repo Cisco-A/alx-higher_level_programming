@@ -7,7 +7,6 @@ def no_c(my_string):
     # remove instances of "C" or "c"
     for i in range(len(new_list)):
         if new_list[i] == "c" or new_list[i] == "C":
-            new_list.pop(i)
-        
-        new_string = ""
-        return (new_string.join(new_list))
+            new_list.pop(i) 
+    new_string = ""
+    return (new_string.join(new_list))
