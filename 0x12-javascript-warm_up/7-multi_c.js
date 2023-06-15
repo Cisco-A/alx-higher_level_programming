@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const { argv } = require('node:process');
 
-let x = argv[2];
+const x = argv[2];
 
 if (!Number(x) || Number(x) === 0) {
   console.log('Missing number of occurrences');
