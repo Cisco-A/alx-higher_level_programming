@@ -10,9 +10,10 @@ module.exports = class Rectangle {
 
   print () {
     const row = 'X'.repeat(this.width);
-    const i = 0;
+    let i = 0;
     while (i < this.height) {
       console.log(row);
+      i++;
     }
   }
 };
