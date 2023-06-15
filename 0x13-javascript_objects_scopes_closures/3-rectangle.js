@@ -7,4 +7,12 @@ module.exports = class Rectangle {
       this.height = h;
     }
   }
+
+  print () {
+    const row = 'X'.repeat(this.width);
+    const i = 0;
+    while (i < this.height) {
+      console.log(row);
+    }
+  }
 };
